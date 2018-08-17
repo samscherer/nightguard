@@ -285,7 +285,7 @@ class MainViewController: UIViewController {
     
     fileprivate func paintCurrentTime() {
         let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm"
+        formatter.dateFormat = "h:mm a"
         self.timeLabel.text = formatter.string(from: Date())
     }
     
